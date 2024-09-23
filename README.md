@@ -4,23 +4,15 @@
 
 This project focuses on analysing member behavior and class attendance at PureGym to optimise class schedules, reduce cancellations and no-shows, and improve overall member satisfaction. The analysis covers various metrics such as class popularity, attendance patterns, waitlist management, and gym capacity utilisation. It addresses key questions around class performance, member participation trends, and resource optimisation.
 
-## Business Problem
+## Business Background and Key Questions
 
-PureGym, a leading UK gym chain, has raised concerns about underperforming classes, cancellation rates, and no-shows affecting member satisfaction and overall gym performance. The main goals of this analysis are to:
+PureGym, a leading UK gym chain, is facing challenges with underperforming classes, high cancellation rates, and no-shows, which negatively impact member satisfaction and overall gym performance. To address these concerns, this analysis aims to:
 
-- Identify which classes are most/least popular by gender, age, and time of day.
-- Understand attendance trends across different days of the week.
-- Determine which classes should be reduced, rescheduled, or removed.
-- Examine how time of day impacts class capacity utilisation.
-- Suggest ways to optimise member engagement by minimising cancellations and no-shows.
-
-## Key Business Questions Addressed
-
-1. Which classes had the highest and lowest participation according to gender, age, and time of day?
-2. Which days experience the most and least attendance? How do weekdays compare to weekends?
-3. Which classes are underperforming and need to be reduced or replaced?
-4. How does the time of day impact class capacity utilisation?
-5. Are there opportunities for improving the least utilised classes based on percentage filled and total attendance?
+- Identify Class Popularity: Determine which classes are most and least popular across different demographics (gender, age) and times of the day.
+- Attendance Trends: Analyze attendance patterns across the week, comparing weekdays to weekends, and identifying days with significant or low attendance.
+- Class Optimization: Assess underperforming classes to determine whether they should be rescheduled, reduced, or replaced to better align with member preferences.
+- Capacity Utilization: Explore how time of day impacts class capacity utilization and find ways to maximize resource use.
+- Member Engagement: Suggest ways to optimize engagement by reducing cancellations, no-shows, and improving attendance for least utilized classes.
 
 ---
 
