@@ -9,10 +9,10 @@ This project focuses on analysing member behavior and class attendance at PureGy
 PureGym, a leading UK gym chain, is facing challenges with underperforming classes, high cancellation rates, and no-shows, which negatively impact member satisfaction and overall gym performance. To address these concerns, this analysis aims to:
 
 - **Identify Class Popularity**: Determine which classes are most and least popular across different demographics (gender, age) and times of the day.
-- **Attendance Trend**s: Analyze attendance patterns across the week, comparing weekdays to weekends, and identifying days with significant or low attendance.
-- **Class Optimization**: Assess underperforming classes to determine whether they should be rescheduled, reduced, or replaced to better align with member preferences.
-- **Capacity Utilization**: Explore how time of day impacts class capacity utilization and find ways to maximize resource use.
-- **Member Engagement**: Suggest ways to optimize engagement by reducing cancellations, no-shows, and improving attendance for least utilized classes.
+- **Attendance Trend**s: Analyse attendance patterns across the week, comparing weekdays to weekends, and identifying days with significant or low attendance.
+- **Class Optimisation**: Assess underperforming classes to determine whether they should be rescheduled, reduced, or replaced to better align with member preferences.
+- **Capacity Utilisation**: Explore how time of day impacts class capacity utilisation and find ways to maximise resource use.
+- **Member Engagement**: Suggest ways to optimise engagement by reducing cancellations, no-shows, and improving attendance for least utilised classes.
 
 ---
 
