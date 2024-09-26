@@ -1,0 +1,11 @@
+center_id,opening_date,format,floor_area_net_usable_with_changing,country,division,region,studio,spin,functional,offpeak_MF_1,offpeak_MF_2,offpeak_MF_3,offpeak_MF_4,offpeak_SS
+293,04/02/2020,LBF,12297,England,East,Region 11,Y,Y,N,null,null,null,null,null
+34,06/12/2012,LBF,16783,England,West,Region 6,Y,Y,Y,null,null,null,null,null
+264,02/10/2019,SBF,7332,England,West,Region 9,Y,N,Y,12:00am -4:00pm,9:00pm -12:00am (Midnight),N/A,N/A,All Day
+174,02/02/2017,LBF,14570,England,North,Region 4,Y,Y,Y,12:00am -3:30pm,8:30pm -12:00am (Midnight),N/A,N/A,All Day
+28,13/09/2012,LBF,17174,England,North,Region 5,Y,Y,Y,null,null,null,null,null
+168,10/01/2017,MBF,8991,England,East,Region 16,Y,N,N,12:00am -6:00am,"	8:30am -11:30am",1:30pm -4:00pm,9:00pm -12:00am (Midnight),All Day
+314,23/12/2021,MBF,8004,England,East,Region 12,Y,N,N,null,null,null,null,null
+14,18/03/2011,LBF,17116,England,North,Region 3,Y,Y,Y,null,null,null,null,null
+216,01/11/2018,SBF,6906,England,East,Region 13,Y,Y,Y,null,null,null,null,null
+30,08/12/2011,MBF,7091,England,East,Region 14,Y,N,Y,null,null,null,null,null
