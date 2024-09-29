@@ -1,7 +1,7 @@
 # Pure Gym Data Analysis
 
 ## Overview
-This project focuses on analysing member behavior and class attendance at PureGym to optimise class schedules, reduce cancellations and no-shows, and improve overall member satisfaction. The analysis covers various metrics such as class popularity, attendance patterns, waitlist management, and gym capacity utilisation. It addresses key questions around class performance, member participation trends, and resource optimisation.
+This project is part of a group assignment during the Data Analytics course at the **London School of Economics (LSE)**, with myself serving as the project leader. The analysis focuses on understanding member behaviour and class attendance at PureGym, with the aim to optimise class schedules, reduce cancellations and no-shows, and improve overall member satisfaction. The analysis covers various metrics such as class popularity, attendance patterns, waitlist management, and gym capacity utilisation. It addresses key questions around class performance, member participation trends, and resource optimisation.
 
 ## Business Background and Key Questions
 PureGym, a leading UK gym chain, is facing challenges with underperforming classes, high cancellation rates, and no-shows, which negatively impact member satisfaction and overall gym performance. To address these concerns, this analysis aims to:
