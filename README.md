@@ -14,8 +14,8 @@ PureGym, a leading UK gym chain, is facing challenges with underperforming class
 ## Data Cleaning and Preparation
 ### Steps Taken:
 1. **Initial Data Exploration**
-   - Used `class_data.info()` to understand the data types and non-null counts of each column.
-   - Used `class_data.describe()` to generate summary statistics for numerical columns.
+   - Used `file_data.info()` to understand the data types and non-null counts of each column.
+   - Used `file_data.describe()` to generate summary statistics for numerical columns.
 2. **Handling Missing Values**
    - Checked for missing values to determine if any imputation or removal was needed.
 3. **Remove Redundant Columns**
@@ -40,29 +40,42 @@ This analysis mainly focuses on **Python**.
 - **Scikit-Learn (`import sklearn`)**: 
   - For predictive modeling and regression analysis.
 
-## Key Insights and Findings
-1. **Class Performance**:
-   - Popular classes like "Cycle" and "Legs, Bums, & Tums" (LBT) had the highest cancellation and non-attendance rates, indicating potential dissatisfaction due to overbooking.
-   - 
-   - Certain classes like "Move Your Mind Circuits" and "Learn to Run" had very low participation and are candidates for removal or rescheduling.
-     
-2. **Day of the Week Trends**:
-   - **Wednesdays** have the highest attendance rate (>20%), whereas **weekends** (Saturdays and Sundays) have less than 5% attendance.
-3. **Time of Day**:
-   - Classes during **morning** and **evening** hours are most popular, while **midday** classes see low attendance, suggesting that midday classes can be reduced or rescheduled.
-4. **Underperforming Classes**:
-   - Classes like **"Zumba"**, **"Step"**, **"Pilates"**, and **"Burn It"** showed consistently low attendance, especially on weekends, and should be reconsidered for optimisation or removal.
+## Key Insights and Recommendation Summary
 
-## Recommendations
-1. **Reschedule Classes to Peak Demand Hours**:
-   - Increase class availability during peak demand periods (e.g., Wednesday mornings and evenings). For example, reduce **Step** from 10 to 4 sessions and increase **LBT** from 1 to 7 sessions.
-2. **Remove or Replace Underperforming Classes**:
-   - Consider removing low-performing classes like **"Move Your Mind Circuits"** and **"Learn to Run"**, which consistently had low attendance and high cancellation rates.
-3. **Optimise Waitlist Management**:
-   - Manage waitlists more effectively by reducing overbooking in popular classes to minimise cancellations and increase attendance.
-4. **Focus on Weekday Engagement**:
-   - Since weekends have low attendance, focus on offering more high-demand classes on weekdays (e.g., **Bodytone** on Wednesdays), while minimising additions to weekend schedules.
-5. **Introduce Member Feedback**:
-   - Implement a feedback mechanism within the PureGym app or website where members can provide reasons for cancellations, allowing continuous improvement of the class offerings and schedule.
+### Patterns, Trends, and Insights
+![ClassesUtilisation](underutilised.png)
+- **Challenges with Top Classes**: 
+  - A substantial number of the most popular classes face issues related to cancellations, no-shows, and having long waiting lists. 
+  - Classes like **"Cycle"** and **"Leg Bum & Tums" (LBT)** are the most impacted.
+  - A trend is observed where classes with high cancellation rates also have moderately high non-attendance rates, suggesting potential dissatisfaction among members due to missed opportunities for attendance. This creates inefficiencies as sessions are left underutilized, even with waiting members eager to join.
+  ![CLassesParticipation](Classes_Participation_Status.png)
+- **Day of the Week Analysis**:
+  - **Wednesday** has the highest attendance rate, exceeding **20%**, whereas other days fall below this threshold. Weekend days, **Saturday and Sunday**, have significantly lower attendance rates (<5%) compared to weekdays. 
+  - This suggests that additional class offerings on **Wednesday** could capitalize on higher engagement levels, whereas additional weekend classes may not be as beneficial.
+
+- **Popular vs. Underutilized Classes**:
+  - On **Wednesdays**, popular classes include **Pump, Cycle, and Bodytone**, while **Yoga, Sweat, Zumba, Step, Pilates, and Burn It** have lower attendance.
+  - On **weekends**, popular classes like **Bodytone** are unavailable, while **Zumba** is missing on Saturdays and **Pilates** on Sundays. Classes like **Yoga, Zumba, Dance, and Pilates** show persistently low attendance rates.
+
+## Recommendations for Class Scheduling Optimization
+
+1. **Adjust Wednesday Class Schedule**:
+   - Increase availability for **LBT at 12 PM** by reducing the number of **Step sessions** from 10 to 4 and reallocating the remaining 6 sessions to LBT, increasing it to 7 sessions in total. This aims to better align class availability with demand.
+
+2. **Discontinue Low-Performance Classes**:
+   - Consider removing classes with low attendance and engagement, such as:
+     - **'Move Your Mind Circuits Class'** (18.59% filled, 37 participants).
+     - **'Learn To Run'** (25% filled, 2 participants).
+   - Focus on reallocating these slots to higher-demand activities or introducing new classes that might attract more members.
+
+3. **Enhance Engagement on Weekends**:
+   - Since attendance is lower on weekends, focus on optimizing current offerings rather than adding more sessions. Consider:
+     - Introducing **popular classes like Bodytone** to the weekend schedule.
+     - Replacing underperforming sessions like **Yoga or Dance** with trial classes that can gauge member interest.
+
+4. **Long-Term Optimization and Feedback Collection**:
+   - Track the impact of implemented schedule changes on member satisfaction, retention, and overall gym performance.
+   - Collect feedback by introducing a feature in the **PureGym application** for members to provide reasons for class cancellations, allowing for better insights into member preferences.
+   - Continuously monitor the data to identify new opportunities for optimization and ensure long-term success.
 
 
