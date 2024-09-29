@@ -43,6 +43,7 @@ This analysis mainly focuses on **Python**.
 ## Key Insights and Findings
 1. **Class Performance**:
    - Popular classes like "Cycle" and "Legs, Bums, & Tums" (LBT) had the highest cancellation and non-attendance rates, indicating potential dissatisfaction due to overbooking.
+   - 
    - Certain classes like "Move Your Mind Circuits" and "Learn to Run" had very low participation and are candidates for removal or rescheduling.
      
 2. **Day of the Week Trends**:
