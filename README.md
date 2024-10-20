@@ -75,7 +75,7 @@ This analysis mainly focuses on **Python**.
 ## Recommendations for Class Scheduling Optimisation
 
 1. **Adjust Wednesday Class Schedule**:
-   - Increase availability for **LBT at 12 PM** by reducing the number of **Step sessions** from 10 to 4, reallocating the remaining 6 slots to LBT, resulting in a total of 7 LBT sessions. This adjustment will better align with member demand.
+   - Reallocate less popular classes to more in-demand classes to better align with member preferences and optimise attendance.
 
    ![Time Change Suggestion](Time_Change_Suggestion.png)
 
